@@ -12,4 +12,4 @@ an easy shope demo build by uni-app
   2. 运行前需要导入shopList.sql文件，之后运行pdd_api文件夹内的app.js
   3. 聊天页面的bug不影响运行,登录退出功能尚未完善，有点简陋
 ## tips:
-  HBuilderX什么时候能有linux版本的呢？我使用cli创建uni-app项目老是出现莫名其妙的错误，最后我放弃了linux，回到了win102333
+  HBuilderX什么时候能有linux版本的呢？我使用cli创建uni-app项目老是出现莫名其妙的错误，最后我放弃了linux，回到了win10,太惨了
