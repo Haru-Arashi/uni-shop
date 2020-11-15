@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, 
+		{
+			"path": "pages/recommend/index",
+			"style": {
+				"navigationBarTitleText": "推荐"
+			}
+
+		},
+		{
+			"path": "pages/goodsDetails/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+
+		}
+	    ,{
+            "path" : "pages/login/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录"
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册"
+            }
+            
+        }
+       
+        ,{
+            "path" : "components/home/otherDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#f8f8f1"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/icon_home_selected.png",
+			"selectedIconPath": "static/image/icon_home.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/recommend/index",
+			"iconPath": "static/image/icon_intro_selected.png",
+			"selectedIconPath": "static/image/icon_intro.png",
+			"text": "推荐"
+		},
+		{
+			"pagePath": "pages/search/index",
+			"iconPath": "static/image/icon_search_selected.png",
+			"selectedIconPath": "static/image/icon_search.png",
+			"text": "搜索"
+		},
+		{
+			"pagePath": "pages/chat/index",
+			"iconPath": "static/image/icon_chat_selected.png",
+			"selectedIconPath": "static/image/icon_chat.png",
+			"text": "聊天"
+		},
+		{
+			"pagePath": "pages/me/index",
+			"iconPath": "static/image/icon_mine_selected.png",
+			"selectedIconPath": "static/image/icon_mine.png",
+			"text": "个人中心"
+		}]
+	}
+}
